@@ -7,7 +7,6 @@ import { Provider } from 'react-redux';
 import thunkMiddleware from 'redux-thunk';
 import AddDeck from './components/Deck/AddDeck';
 import DeckList from './components/Deck/DeckList';
-import RemoveDecks from './components/Deck/RemoveDecks';
 import DeckEntity from './components/Deck/DeckEntity';
 import AddFlashCard from './components/AddFlashCard';
 import QuizEntity from './components/QuizEntity';
@@ -27,15 +26,7 @@ const Tabs = TabNavigator(
       navigationOptions: {
         tabBarLabel: 'Add Deck'
       }
-    }
-    /*,
-    RemoveDecks: {
-      screen: RemoveDecks,
-      navigationOptions: {
-        tabBarLabel: 'Remove Decks'
-      }
-    } */
-    
+    }    
   },
   {
     navigationOptions: {
