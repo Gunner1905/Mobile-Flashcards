@@ -14,13 +14,13 @@ This is a native iOS and Android application that lets you create quizzes and tr
 
 To get started with this repository:
 
-# git clone with HTTPS
+## git clone with HTTPS
 git clone https://github.com/Gunner1905/mobile-flashcards.git
 
-# change directory into the cloned repo
+## change directory into the cloned repo
 cd mobile-flashcards
 
-# install the dependencies
+## install the dependencies
 npm install
 
 ### `npm start`
