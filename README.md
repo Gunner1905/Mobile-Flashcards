@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
-
-# **Udacity React Nanodegree Final Project**
+# **Udacity React Nanodegree React-Native Project -> Mobile Flashcards**
 
 This application is built with React Native - and Expo. It is tested only on Android for now.
 
