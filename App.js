@@ -28,13 +28,13 @@ const Tabs = TabNavigator(
         tabBarLabel: 'Add Deck'
       }
     }
-    ,
+    /*,
     RemoveDecks: {
       screen: RemoveDecks,
       navigationOptions: {
         tabBarLabel: 'Remove Decks'
       }
-    }
+    } */
     
   },
   {
