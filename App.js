@@ -26,7 +26,14 @@ const Tabs = TabNavigator(
       navigationOptions: {
         tabBarLabel: 'Add Deck'
       }
-    }    
+    },
+    RemoveDecks: {  //This is not in the specifications, but it is very handy for the integrity of this application :)
+      screen: RemoveDecks,
+      navigationOptions: {
+        tabBarLabel: 'Remove Decks'
+      }
+    }
+	  
   },
   {
     navigationOptions: {
