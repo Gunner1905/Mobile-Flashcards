@@ -15,13 +15,19 @@ This is a native iOS and Android application that lets you create quizzes and tr
 To get started with this repository:
 
 ## git clone with HTTPS
+```
 git clone https://github.com/Gunner1905/mobile-flashcards.git
+```
 
 ## change directory into the cloned repo
+```
 cd mobile-flashcards
+```
 
 ## install the dependencies
+```
 npm install
+```
 
 ### `npm start`
 
@@ -48,13 +54,4 @@ Like `npm start`, but also attempts to open your app in the iOS Simulator if you
 #### `npm run android`
 
 Like `npm start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup). We also recommend installing Genymotion as your Android emulator. Once you've finished setting up the native build environment, there are two options for making the right copy of `adb` available to Create React Native App:
-
-
-## Customizing App Display Name and Icon
-
-You can edit `app.json` to include [configuration keys](https://docs.expo.io/versions/latest/guides/configuration.html) under the `expo` key.
-
-To change your app's display name, set the `expo.name` key in `app.json` to an appropriate string.
-
-To set an app icon, set the `expo.icon` key in `app.json` to be either a local path or a URL. It's recommended that you use a 512x512 png file with transparency.
 
